@@ -1,0 +1,38 @@
+                        /* 
+1.Pocisionamiento
+2.Modelo de caja ibox model
+3.Tipografia
+4.Visuales
+5.Otros
+*/
+                    
+                     :root {
+                        /*colores */
+                        --bitcoin-orange: #F7931A;
+                        --soft-orange: #FFE9D5;
+                        --secundary-blue: #1A9AF7;
+                        --soft-blue: #E7F5FF;
+                        --warm-black: #201E1C;
+                        --black: #282623;
+                        --grey: #bababa;
+                        --off-white: #FAF7F8;
+                        --just-white: #fff;
+                        * {
+                            box-sizing: border-box;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        html {
+                            font-size: 62.54;
+                            font-family: 'DM Sans', sans-serif;
+                        }
+                        header {
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            width: 100%;
+                            min-width: 320px;
+                            height: 334px;
+                            text-align: center;
+                        }
