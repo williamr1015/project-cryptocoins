@@ -17,7 +17,8 @@
                         --grey: #bababa;
                         --off-white: #FAF7F8;
                         --just-white: #fff;
-                        * {
+                        }  
+                        *{
                             box-sizing: border-box;
                             margin: 0;
                             padding: 0;
